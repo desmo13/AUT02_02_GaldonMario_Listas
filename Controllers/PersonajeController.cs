@@ -45,7 +45,7 @@ namespace AUT02_02_GaldonMario_Listas.Controllers
             }
         }
 
-        /*Funcion que es llamada cuando se apreta el boton de llamar de la lista 
+        /*Funcion que es llamada cuando se apreta el boton de borrar de la lista 
          * Cada boton que se genera en el formulario se genera con un valor que envia diferente que es el ID de la persona 
          * Luego lo recogemos en esta funcion y en un bucle foreach vamos comparando si encuentra un id en la lista igual al enviado lo borra y sale del bucle con un break
          * PD:que pestano no vea que e metido un break en un blucle for si no me mata
