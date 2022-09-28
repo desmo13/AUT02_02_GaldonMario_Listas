@@ -42,8 +42,13 @@
             <td>
                 @Html.DisplayFor(modelItem => item.Familia)
             </td>
-           
+            <td>@Html.ActionLink("Borrar","Delete","Personaje",new{item.Id},null)</td>
         </tr>
+
+
+
+
+
 }
     </tbody>
 </table>
