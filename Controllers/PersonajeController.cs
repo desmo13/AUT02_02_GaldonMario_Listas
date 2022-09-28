@@ -10,9 +10,9 @@ namespace AUT02_02_GaldonMario_Listas.Controllers
 
             public static List<Personaje> listaPersonaje = new List<Personaje>()
             {
-                new Personaje() { Familia = "Familia1", Id = 0, Name = "Nombre1", NumHijos = 1 },
-                new Personaje() { Familia = "Familia2", Id = 1, Name = "Joselito", NumHijos = 1 },
-                new Personaje() { Familia = "Familia3", Id = 2, Name = "Manolo", NumHijos = 10 }
+                new Personaje() { Familia = "Familia1", Id = 0, Nombre = "Nombre1", NumeroHijos = 1 },
+                new Personaje() { Familia = "Familia2", Id = 1, Nombre = "Joselito", NumeroHijos = 1 },
+                new Personaje() { Familia = "Familia3", Id = 2, Nombre = "Manolo", NumeroHijos = 10 }
             };
           
         
