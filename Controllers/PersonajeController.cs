@@ -8,9 +8,9 @@ namespace AUT02_02_GaldonMario_Listas.Controllers
     public class PersonajeController : Controller
     {
 
-            public List<Personaje> listaPersonaje = new List<Personaje>()
+            public static List<Personaje> listaPersonaje = new List<Personaje>()
             {
-               
+                new Personaje() { Familia = "Familia1", Id = 1, Name = "Nombre1", NumHijos = 1 },
                 new Personaje() { Familia = "Familia2", Id = 2, Name = "Joselito", NumHijos = 1 },
                 new Personaje() { Familia = "Familia3", Id = 3, Name = "Manolo", NumHijos = 10 }
             };
@@ -19,7 +19,7 @@ namespace AUT02_02_GaldonMario_Listas.Controllers
 
         public IActionResult Index()
         {
-            listaPersonaje.Add(new Personaje() { Familia = "Familia1", Id = 1, Name = "Nombre1", NumHijos = 1 });
+            
             return View(listaPersonaje) ;
         }
 
