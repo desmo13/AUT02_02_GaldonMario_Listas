@@ -15,6 +15,11 @@ namespace AUT02_02_GaldonMario_Listas.Controllers
                 new Personaje() { Familia = "Familia3", Id = 2, Nombre = "Manolo", NumeroHijos = 10 }
             };
           
+
+        /*El generador de Id se le pasa la lista luego en un bucle compara si los id de la lista encajan 
+         * o no con uno id temporal que creamo y que se va sumando si no lo encuentra en la lista sale del 
+         * bucle y retorna el idtemporal que se a;adira a la persona que se acaba de crear.
+         * */
         private int GeneradorId(List<Personaje> lista)
         {
             int indice =0;
@@ -34,18 +39,11 @@ namespace AUT02_02_GaldonMario_Listas.Controllers
                         indice++;
                         posibleId++;
                     }
-
                 }
                 else
                 {
-
                     final = true;
                 }
-                
-                
-                    
-                
-               
 
             }
             return posibleId;
